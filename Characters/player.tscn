@@ -1,0 +1,11 @@
+[gd_scene format=3 uid="uid://bkpxassclj8po"]
+
+[ext_resource type="Texture2D" uid="uid://co8qnuln83uhn" path="res://Assets/test_sprite_red.png" id="1_5mj4t"]
+[ext_resource type="Script" uid="uid://bweslu6yl1q31" path="res://Characters/Player.cs" id="1_eovys"]
+
+[node name="Player" type="CharacterBody2D" unique_id=1108644534]
+motion_mode = 1
+script = ExtResource("1_eovys")
+
+[node name="Sprite2D" type="Sprite2D" parent="." unique_id=2128575183]
+texture = ExtResource("1_5mj4t")

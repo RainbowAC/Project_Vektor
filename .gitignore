@@ -1,3 +1,84 @@
-# Godot 4+ specific ignores
+# Godot project-specific ignores
 .godot/
-/android/
+**/.import/
+**/.export/
+
+# Godot editor files
+.editorconfig
+.global_config
+
+# Build artifacts
+*/bin/*
+*/obj/*
+
+# Godot application data
+.android/
+export_presets.cfg
+
+# OS generated files
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+Thumbs.db
+desktop.ini
+
+# Temporary files
+tmp/
+temp/
+*.tmp
+*.bak
+
+# User-specific files
+.vs/
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# Log files
+*.log
+logs/
+
+# Compiled files
+*.exe
+*.dll
+*.so
+*.dylib
+
+# Packages
+*.7z
+*.zip
+*.gz
+*.rar
+
+# Visual Studio Code
+.vscode/settings.json
+.vscode/tasks.json
+.vscode/launch.json
+.vscode/recommendations.json
+
+# Unity (if mixed projects)
+Library/
+Temp/
+Obj/
+Build/
+
+# Windows
+[C-c]ache/
+[C-c]ached/
+[C-c]aches/
+
+# Linux
+*~
+
+# macOS
+.AppleDouble/
+.LSOverride
+.localized
+
+# Godot specific files
+*.import
+*.remap
